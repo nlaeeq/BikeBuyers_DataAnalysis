@@ -38,8 +38,6 @@ Below is the screenshot of the raw data.
     <img src="images/1 Raw data.png" alt="Raw Data">
     <figcaption>Raw Data</figcaption>    
 </figure>
-
-<br>
 <br>
 
 ### DATA CLEANING:
@@ -221,7 +219,6 @@ I have also added different slicers on the left side of the dashboard to make th
     <img src="images/17 Bike Buyers Dashboard.png" alt="Bike Buyers Dashboard">
     <figcaption>Bike Buyers Dashboard</figcaption>    
 </figure> 
-    
 <br>
 
 **Thank you for reading this project.**

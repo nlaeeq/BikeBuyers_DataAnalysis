@@ -35,24 +35,25 @@ Before start cleaning the data, it’s always good to make a copy of the origina
 Below is the screenshot of the raw data.
 
 <figure>
-    <img src="images/1 Raw data.png"
-         alt="Raw Data">
-    <figcaption>Raw Data</figcaption>
+    <img src="images/1 Raw data.png" alt="Raw Data">
+    <figcaption>Raw Data</figcaption>    
 </figure>
 
 ### DATA CLEANING:
 
 Let’s start the data cleaning phase by giving a quick glance on the dataset by putting filter on all columns by using Filter from Data Menu. Moreover, I have copied the data in separate sheet and named it as **Working Sheet**.
 
-![Filter Data](images/2 Filter data.png)
-{:.image-caption}
+![Filter Data](images/2 Filter data.png) 
+{:.Filtered Data}
 *Filtered Data*
 
 This shows all the data I am working with and then I will start cleaning it up, making it more useful for my analysis purpose.
 
 **To check duplicates:**
 
+```
 Select all data > Data > Remove Duplicates > Select all columns > OK
+```
 
 ![Delete duplicate values](images/3 Delete duplicate values.png)
 
@@ -62,13 +63,17 @@ The dataset contained 26 duplicate values which have been removed by following t
 
 The values in second and third column of dataset are entered as abbreviations. To ensure data clarity I will replace these abbreviations with meaningful words.
 
+```
 Select Marital Status column > Home > Find & Select > Replace > M for Married
+```
 
 ![Replaced M with Married](images/4 Replaced M with Married.png)
 
 M for Married is replaced for 538 values.
 
+```
 Again Select Marital Status column > Home > Find & Select > Replace > S for Single
+```
 
 ![Replaced S with Single](images/5 Replaced S with Single.png)
 
@@ -76,13 +81,17 @@ S for Single is replaced for 462 values.
 
 Similarly I will change the values for Gender column.
 
+```
 Select Gender column > Home > Find & Select > Replace > F for Female
+```
 
 ![Replaced F with Female](images/6 Replaced F with Female.png)
 
 F is replaced with Female for 489 values.
 
+```
 Select Gender column > Home > Find & Select > Replace > M for Male
+```
 
 ![Replaced M with Male](images/7 Replaced M with Male.png)
 
@@ -92,7 +101,7 @@ M is replaced with Male for 511 values.
 
 Ensure that Income is in currency format and decrease the decimal places in the entire column.
 
-![Decimal points decreased for Income](images/8 Decimal points decreased for income.png)
+![Decimal points decreased for Income](images/8 Decimal points decreased for Income.png)
 
 **To replace word in Commute column:**
 
@@ -108,7 +117,9 @@ Values have been replaced as entered.
 
 As the age values contains entries in specific numbers from 25 to 89, it’s better to divide the ages into three ranges. Insert a new column giving heading ‘Age Group’ and then type the following formula.
 
+```
 =IF(L2>54,"55-90",IF(L2>=31,"31-54",IF(L2<31,"18-30","Invalid")))
+```
 
 ![Created Age Group column](images/10 Created age group column.png)
 
@@ -145,5 +156,8 @@ By using charts, I will be creating a dashboard to show a comprehensive view tha
 I have also added different slicers on the left side of the dashboard to make the visualization more attractive and to observe the data on different criteria. 
 
 ![Bike Buyers Dashboard](images/17 Bike Buyers Dashboard.png)
-
+<div align="center"> Bike Buyers Dashboard  
+    
+    
+    
 **Thank you for reading this project.**

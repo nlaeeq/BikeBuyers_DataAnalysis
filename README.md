@@ -39,8 +39,8 @@ Below is the screenshot of the raw data.
     <figcaption>Raw Data</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 ### DATA CLEANING:
 
@@ -153,8 +153,8 @@ As the age values contains entries in specific numbers from 25 to 89, it’s bet
 
 Now the data is cleaned and will move to create pivot tables and charts for visualization.
 
-</br>
-</br>
+<br>
+<br>
 
 ### DATA VISUALIZATION:
 
@@ -167,18 +167,21 @@ Before making charts, the first step will be building Pivot tables and to find w
     <figcaption>Gender wise Income Pivot Table</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 The chart will explain it better.
+
+<br>
+<br>
 
 <figure>
     <img src="images/12 Gender wise income chart.png" alt="Gender wise Income Chart">
     <figcaption>Gender wise Income Chart</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 **2.	To find connection between commute distance and purchase of bikes.**
 
@@ -187,8 +190,8 @@ The chart will explain it better.
     <figcaption>Commute Distance Pivot Table</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 <figure>
     <img src="images/14 Customer Commute.png" alt="Customer Commute Distance Chart">
@@ -202,16 +205,16 @@ The chart will explain it better.
     <figcaption>Age Group Pivot Table</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 <figure>
     <img src="images/16 Customer Age group chart.png" alt="Customer Age Group Chart">
     <figcaption>Customer Age Group Chart</figcaption>    
 </figure>
 
-</br>
-</br>
+<br>
+<br>
 
 ### CREATING DASHBOARD:
 
@@ -224,7 +227,7 @@ I have also added different slicers on the left side of the dashboard to make th
     <figcaption>Bike Buyers Dashboard</figcaption>    
 </figure> 
     
-</br>
-</br>
+<br>
+<br>
 
 **Thank you for reading this project.**

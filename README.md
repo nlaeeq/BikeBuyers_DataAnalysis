@@ -34,7 +34,11 @@ Before start cleaning the data, it’s always good to make a copy of the origina
 
 Below is the screenshot of the raw data.
 
-![Raw Data](images/1 Raw data.png "Raw Data")
+<figure>
+    <img src="images/1 Raw data.png" text-align="center"
+         alt="Raw Data">
+    <figcaption>Raw Data</figcaption>
+</figure>
 
 ### DATA CLEANING:
 

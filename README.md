@@ -164,11 +164,9 @@ Before making charts, the first step will be building Pivot tables and to find w
     <figcaption>Gender wise Income Pivot Table</figcaption>    
 </figure>
 
-<br>
 
 The chart will explain it better.
 
-<br>
 
 <figure>
     <img src="images/12 Gender wise income chart.png" alt="Gender wise Income Chart">
@@ -191,7 +189,6 @@ The chart will explain it better.
     <figcaption>Customer Commute Distance Chart</figcaption>    
 </figure>
 
-<br>
 
 **3.	To find connection between bike purchase per age group.**
 

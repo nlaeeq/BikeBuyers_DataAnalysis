@@ -43,9 +43,10 @@ Below is the screenshot of the raw data.
 
 Let’s start the data cleaning phase by giving a quick glance on the dataset by putting filter on all columns by using Filter from Data Menu. Moreover, I have copied the data in separate sheet and named it as **Working Sheet**.
 
-![Filter Data](images/2 Filter data.png) 
-{:.Filtered Data}
-*Filtered Data*
+<figure>
+    <img src="images/2 Filter data.png" alt="Filter Data">
+    <figcaption>Filter Data</figcaption>    
+</figure>
 
 This shows all the data I am working with and then I will start cleaning it up, making it more useful for my analysis purpose.
 
@@ -55,7 +56,10 @@ This shows all the data I am working with and then I will start cleaning it up, 
 Select all data > Data > Remove Duplicates > Select all columns > OK
 ```
 
-![Delete duplicate values](images/3 Delete duplicate values.png)
+<figure>
+    <img src="images/3 Delete duplicate values.png" alt="Delete duplicate values">
+    <figcaption>Delete duplicate values</figcaption>    
+</figure>
 
 The dataset contained 26 duplicate values which have been removed by following the above mentioned step.
 
@@ -67,7 +71,10 @@ The values in second and third column of dataset are entered as abbreviations. T
 Select Marital Status column > Home > Find & Select > Replace > M for Married
 ```
 
-![Replaced M with Married](images/4 Replaced M with Married.png)
+<figure>
+    <img src="images/4 Replaced M with Married.png" alt="Replaced M with Married">
+    <figcaption>Replaced M with Married</figcaption>    
+</figure>
 
 M for Married is replaced for 538 values.
 
@@ -75,7 +82,10 @@ M for Married is replaced for 538 values.
 Again Select Marital Status column > Home > Find & Select > Replace > S for Single
 ```
 
-![Replaced S with Single](images/5 Replaced S with Single.png)
+<figure>
+    <img src="images/5 Replaced S with Single.png" alt="Replaced S with Single">
+    <figcaption>Replaced S with Single</figcaption>    
+</figure>
 
 S for Single is replaced for 462 values.
 
@@ -85,7 +95,10 @@ Similarly I will change the values for Gender column.
 Select Gender column > Home > Find & Select > Replace > F for Female
 ```
 
-![Replaced F with Female](images/6 Replaced F with Female.png)
+<figure>
+    <img src="images/6 Replaced F with Female.png" alt="Replaced F with Female">
+    <figcaption>Replaced F with Female</figcaption>    
+</figure>
 
 F is replaced with Female for 489 values.
 
@@ -93,7 +106,10 @@ F is replaced with Female for 489 values.
 Select Gender column > Home > Find & Select > Replace > M for Male
 ```
 
-![Replaced M with Male](images/7 Replaced M with Male.png)
+<figure>
+    <img src="images/7 Replaced M with Male.png" alt="Replaced M with Male">
+    <figcaption>Replaced M with Male</figcaption>    
+</figure>
 
 M is replaced with Male for 511 values.
 
@@ -101,7 +117,10 @@ M is replaced with Male for 511 values.
 
 Ensure that Income is in currency format and decrease the decimal places in the entire column.
 
-![Decimal points decreased for Income](images/8 Decimal points decreased for Income.png)
+<figure>
+    <img src="images/8 Decimal points decreased for Income.png" alt="Decimal points decreased for Income">
+    <figcaption>Decimal points decreased for Income</figcaption>    
+</figure>
 
 **To replace word in Commute column:**
 
@@ -109,7 +128,10 @@ Replace the ‘10+ Miles’ word with ‘More than 10 Miles’ in order to give 
 
 A shortcut to do this is, simply press CTRL + H on keyboard, this will open Find & Replace dialogue box.
 
-![Replaced 10+ Miles with More than 10 Miles](images/9 Replaced 10+ Miles with More than 10 Miles.png)
+<figure>
+    <img src="images/9 Replaced 10+ Miles with More than 10 Miles.png" alt="Replaced 10+ Miles with More than 10 Miles">
+    <figcaption>Replaced 10+ Miles with More than 10 Miles</figcaption>    
+</figure>
 
 Values have been replaced as entered.
 
@@ -121,7 +143,10 @@ As the age values contains entries in specific numbers from 25 to 89, it’s bet
 =IF(L2>54,"55-90",IF(L2>=31,"31-54",IF(L2<31,"18-30","Invalid")))
 ```
 
-![Created Age Group column](images/10 Created age group column.png)
+<figure>
+    <img src="images/10 Created age group column.png" alt="Created Age Group column">
+    <figcaption>Created Age Group column</figcaption>    
+</figure>
 
 Now the data is cleaned and will move to create pivot tables and charts for visualization.
 
@@ -131,23 +156,41 @@ Before making charts, the first step will be building Pivot tables and to find w
 
 **1.	To find connection between gender-wise income and purchase of bikes.**
 
-![Gender wise Income Pivot Table](images/11 Gender wise income pivot table.png)
+<figure>
+    <img src="images/11 Gender wise income pivot table.png" alt="Gender wise Income Pivot Table">
+    <figcaption>Gender wise Income Pivot Table</figcaption>    
+</figure>
 
 The chart will explain it better.
 
-![Gender wise Income Chart](images/12 Gender wise income chart.png)
+<figure>
+    <img src="images/12 Gender wise income chart.png" alt="Gender wise Income Chart">
+    <figcaption>Gender wise Income Chart</figcaption>    
+</figure>
 
 **2.	To find connection between commute distance and purchase of bikes.**
 
-![Commute Distance Pivot Table](images/13 Commute distance pivot table.png)
+<figure>
+    <img src="images/13 Commute distance pivot table.png" alt="Commute Distance Pivot Table">
+    <figcaption>Commute Distance Pivot Table</figcaption>    
+</figure>
 
-![Customer Commute Distance Chart](images/14 Customer Commute.png)
+<figure>
+    <img src="images/14 Customer Commute.png" alt="Customer Commute Distance Chart">
+    <figcaption>Customer Commute Distance Chart</figcaption>    
+</figure>
 
 **3.	To find connection between bike purchase per age group.**
 
-![Age Group Pivot Table](images/15 Age group pivot table.png)
+<figure>
+    <img src="images/15 Age group pivot table.png" alt="Age Group Pivot Table">
+    <figcaption>Age Group Pivot Table</figcaption>    
+</figure>
 
-![Customer Age Group Chart](images/16 Customer Age group chart.png)
+<figure>
+    <img src="images/16 Customer Age group chart.png" alt="Customer Age Group Chart">
+    <figcaption>Customer Age Group Chart</figcaption>    
+</figure>
 
 ### CREATING DASHBOARD:
 
@@ -155,8 +198,11 @@ By using charts, I will be creating a dashboard to show a comprehensive view tha
 
 I have also added different slicers on the left side of the dashboard to make the visualization more attractive and to observe the data on different criteria. 
 
-![Bike Buyers Dashboard](images/17 Bike Buyers Dashboard.png)
-<div align="center"> Bike Buyers Dashboard  
+<figure>
+    <img src="images/17 Bike Buyers Dashboard.png" alt="Bike Buyers Dashboard">
+    <figcaption>Bike Buyers Dashboard</figcaption>    
+</figure>
+![Bike Buyers Dashboard](images/17 Bike Buyers Dashboard.png)  
     
     
     

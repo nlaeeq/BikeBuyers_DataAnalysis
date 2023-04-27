@@ -35,7 +35,7 @@ Before start cleaning the data, it’s always good to make a copy of the origina
 Below is the screenshot of the raw data.
 
 <figure>
-    <img src="images/1 Raw data.png" text-align="center"
+    <img src="images/1 Raw data.png"
          alt="Raw Data">
     <figcaption>Raw Data</figcaption>
 </figure>
@@ -45,6 +45,8 @@ Below is the screenshot of the raw data.
 Let’s start the data cleaning phase by giving a quick glance on the dataset by putting filter on all columns by using Filter from Data Menu. Moreover, I have copied the data in separate sheet and named it as **Working Sheet**.
 
 ![Filter Data](images/2 Filter data.png)
+{:.image-caption}
+*Filtered Data*
 
 This shows all the data I am working with and then I will start cleaning it up, making it more useful for my analysis purpose.
 

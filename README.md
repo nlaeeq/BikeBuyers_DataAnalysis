@@ -189,6 +189,7 @@ The chart will explain it better.
     <figcaption>Customer Commute Distance Chart</figcaption>    
 </figure>
 
+<br>
 
 **3.	To find connection between bike purchase per age group.**
 

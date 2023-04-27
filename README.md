@@ -39,6 +39,9 @@ Below is the screenshot of the raw data.
     <figcaption>Raw Data</figcaption>    
 </figure>
 
+</br>
+</br>
+
 ### DATA CLEANING:
 
 Let’s start the data cleaning phase by giving a quick glance on the dataset by putting filter on all columns by using Filter from Data Menu. Moreover, I have copied the data in separate sheet and named it as **Working Sheet**.
@@ -150,6 +153,9 @@ As the age values contains entries in specific numbers from 25 to 89, it’s bet
 
 Now the data is cleaned and will move to create pivot tables and charts for visualization.
 
+</br>
+</br>
+
 ### DATA VISUALIZATION:
 
 Before making charts, the first step will be building Pivot tables and to find what factors are involved in purchase of bikes.
@@ -161,6 +167,9 @@ Before making charts, the first step will be building Pivot tables and to find w
     <figcaption>Gender wise Income Pivot Table</figcaption>    
 </figure>
 
+</br>
+</br>
+
 The chart will explain it better.
 
 <figure>
@@ -168,12 +177,18 @@ The chart will explain it better.
     <figcaption>Gender wise Income Chart</figcaption>    
 </figure>
 
+</br>
+</br>
+
 **2.	To find connection between commute distance and purchase of bikes.**
 
 <figure>
     <img src="images/13 Commute distance pivot table.png" alt="Commute Distance Pivot Table">
     <figcaption>Commute Distance Pivot Table</figcaption>    
 </figure>
+
+</br>
+</br>
 
 <figure>
     <img src="images/14 Customer Commute.png" alt="Customer Commute Distance Chart">
@@ -187,10 +202,16 @@ The chart will explain it better.
     <figcaption>Age Group Pivot Table</figcaption>    
 </figure>
 
+</br>
+</br>
+
 <figure>
     <img src="images/16 Customer Age group chart.png" alt="Customer Age Group Chart">
     <figcaption>Customer Age Group Chart</figcaption>    
 </figure>
+
+</br>
+</br>
 
 ### CREATING DASHBOARD:
 
@@ -201,9 +222,9 @@ I have also added different slicers on the left side of the dashboard to make th
 <figure>
     <img src="images/17 Bike Buyers Dashboard.png" alt="Bike Buyers Dashboard">
     <figcaption>Bike Buyers Dashboard</figcaption>    
-</figure>
-![Bike Buyers Dashboard](images/17 Bike Buyers Dashboard.png)  
+</figure> 
     
-    
-    
+</br>
+</br>
+
 **Thank you for reading this project.**

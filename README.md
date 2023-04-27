@@ -154,7 +154,6 @@ As the age values contains entries in specific numbers from 25 to 89, it’s bet
 Now the data is cleaned and will move to create pivot tables and charts for visualization.
 
 <br>
-<br>
 
 ### DATA VISUALIZATION:
 
@@ -168,11 +167,9 @@ Before making charts, the first step will be building Pivot tables and to find w
 </figure>
 
 <br>
-<br>
 
 The chart will explain it better.
 
-<br>
 <br>
 
 <figure>
@@ -180,7 +177,6 @@ The chart will explain it better.
     <figcaption>Gender wise Income Chart</figcaption>    
 </figure>
 
-<br>
 <br>
 
 **2.	To find connection between commute distance and purchase of bikes.**
@@ -191,12 +187,13 @@ The chart will explain it better.
 </figure>
 
 <br>
-<br>
 
 <figure>
     <img src="images/14 Customer Commute.png" alt="Customer Commute Distance Chart">
     <figcaption>Customer Commute Distance Chart</figcaption>    
 </figure>
+
+<br>
 
 **3.	To find connection between bike purchase per age group.**
 
@@ -206,13 +203,13 @@ The chart will explain it better.
 </figure>
 
 <br>
-<br>
 
 <figure>
     <img src="images/16 Customer Age group chart.png" alt="Customer Age Group Chart">
     <figcaption>Customer Age Group Chart</figcaption>    
 </figure>
 
+<br>
 
 ### CREATING DASHBOARD:
 
@@ -225,5 +222,6 @@ I have also added different slicers on the left side of the dashboard to make th
     <figcaption>Bike Buyers Dashboard</figcaption>    
 </figure> 
     
+<br>
 
 **Thank you for reading this project.**

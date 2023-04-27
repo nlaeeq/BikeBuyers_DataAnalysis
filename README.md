@@ -34,7 +34,7 @@ Before start cleaning the data, it’s always good to make a copy of the origina
 
 Below is the screenshot of the raw data.
 
-![Raw Data](images/1 Raw data.png)
+![Raw Data](images/1 Raw data.png "Raw Data")
 
 ### DATA CLEANING:
 

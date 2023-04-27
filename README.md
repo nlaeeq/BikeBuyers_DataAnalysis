@@ -213,8 +213,6 @@ The chart will explain it better.
     <figcaption>Customer Age Group Chart</figcaption>    
 </figure>
 
-<br>
-<br>
 
 ### CREATING DASHBOARD:
 
@@ -227,7 +225,5 @@ I have also added different slicers on the left side of the dashboard to make th
     <figcaption>Bike Buyers Dashboard</figcaption>    
 </figure> 
     
-<br>
-<br>
 
 **Thank you for reading this project.**
